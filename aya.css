@@ -1,0 +1,42 @@
+:root {
+  --samp: 0deg;
+  --woof: #330330;
+}
+
+::selection {
+  background: deeppink;
+  color: #030303;
+}
+
+:any-link {
+  color: indigo;
+}
+
+:focus {
+  background: salmon;
+}
+
+html {
+  background: #0bd;
+  background-image: linear-gradient(.3turn, springgreen, #0bd 20%, #0bd 90%, violet 90%, blueviolet);
+  color: midnightblue;
+  transition: 360ms;
+}
+
+::marker {
+  color: purple;
+}
+
+li {
+  box-shadow: 0 0 1em 0 #6be;
+}
+
+samp,
+mark {
+  background: #ee1;
+  color: var(--woof);
+}
+
+samp {
+  filter: hue-rotate(var(--samp));
+}
